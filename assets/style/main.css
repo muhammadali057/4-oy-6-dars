@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'roboto-500';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-700';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+} */
+
+.container {
+    width: 1600px;
+    /* height: 1200px; */
+    /* background: #FAFAFB; */
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.contentONE {
+    width: 296px;
+    height: 726px;
+}
+
+.contentTWO {
+    width: 1232px;
+    height: 751px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #EDF1F7, #EDF1F7),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #EDF1F7;
+}
+
+.box1 {
+    width: 296px;
+    height: 152px;
+}
+
+.row2 {
+    width: 264px;
+    height: 56px;
+
+}
+
+.text1 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #222B45;
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.text2 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #8F9BB3;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.fa-chevron-down {
+    margin-left: 230px;
+    position: absolute;
+    top: 100px;
+}
+
+.qongiroq {
+    margin-left: 80px;
+}
+
+.box2 {
+    width: 296px;
+    height: 575px;
+}
+
+.cards {
+    width: 296px;
+    height: 64px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 4px solid transparent;
+    transition: .5s;
+    border: 1px solid #8F9BB3;
+}
+.cards:hover{
+    transition: .5s;
+    border-left:4px solid #3366FF;
+    cursor: pointer;
+}
+
+.cards_img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cards_text {
+    margin-left: 70px;
+    margin-top: -20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #222B45;
+    font-family: 'roboto-500';
+
+}
+.cards_text:hover{
+    color: #3366FF;
+}
+
+.strelka {
+    margin-top: -90px;
+    margin-left: 240px;
+}
+
+.text3 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.btn {
+    width: 136px;
+    height: 40px;
+    border-radius: 4px;
+    background: #3366FF;
+    color: white;
+    margin-left: 1000px;
+    margin-top: -70px;
+}
+
+.btn:hover {
+    border: 1px solid #3366FF;
+    box-shadow: 0px 0px 5px 5px #3366FF;
+}
+
+.ul {
+    width: 763px;
+    height: 48px;
+    display: flex;
+    list-style-type: none;
+    margin-left: -25px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'OpenSans-700';
+
+}
+
+.href {
+    text-decoration: none;
+    color: #8F9BB3;
+
+}
+
+.ul_li {
+    transition: .5s;
+
+}
+
+.ul_li:hover {
+    color: #3366FF;
+    border-bottom: 2px solid #3366FF;
+    transition: .5s;
+}
+
+.text4 {
+    color: #8992A3;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin-left: 40px;
+    font-family: 'OpenSans-700';
+
+}
+
+.text5 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #3366FF;
+    margin-left: 50px;
+}
+
+.img1 {
+    margin-left: 40px;
+}
+
+.text6 {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.input {
+    width: 1185px;
+    height: 48px;
+
+}
+
+.text7 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.select1 {
+    width: 580px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.grow {
+    margin-top: 20px;
+}
+
+.grow1 {
+    margin-left: 10px;
+}
+
+.grow2 {
+    margin-left: 600px;
+    margin-top: -80px;
+}
+
+.btn1 {
+    width: 99px;
+    height: 40px;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+}
+
+.btn2 {
+    width: 116px;
+    height: 40px;
+    background: #C9E7E5;
+    color: white;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+border: none;
+
+}
+.btn_ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
